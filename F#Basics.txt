@@ -1,0 +1,35 @@
+arrays vs lists
+sequences
+pipe notation
+using interfaces
+record type
+yeild keyword
+yield!
+
+-----TryF#--------
+
+functions
+pipe operator
+lists
+array
+first-class values
+record types
+options types
+discriminated unions
+currying
+infix operators
+pattern matching
+types
+operator overloading
+active patterns
+computation expressions
+sequences
+async
+query
+quotations
+splicing
+type providers
+units of measure
+
+Severity	Code	Description	Project	File	Line
+Error		The field, constructor or member 'JsonValue' is not defined	SimpleTaskerCore	C:\dev\F#\SimpleTasker\SimpleTasker\SimpleTaskerCore\SimpleTaskerCore.fs	20

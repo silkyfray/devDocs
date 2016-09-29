@@ -1,0 +1,47 @@
+Typescript Language Basics
+--------------------------
+Types
+	Basic types like number, string, etc are supported
+	null and undefined types are subtypes of all other types
+		can be assigned to any other type
+	type assertion
+		like cast in other oo language except no compile or runtime check done
+	never
+		represents the type of values that never occur
+		think of a infinite while loop inside of a function. The return type of the fn is never
+
+Variable Declarations
+	var
+		declare a variable
+		functions like JavaScript var where it is available in the fn, global, namespace and module scope when declared
+	let
+		let has block-scoping i.e like an oo language
+	const
+	destructing
+		let input = [1, 2];
+		let [first, second] = input;		
+	default values
+
+Interfaces
+	optional properties
+	readonly properties
+	index signatures
+	indexable types
+	class types
+	hybrid types
+
+Functions
+Generics
+Enums
+Type Inference
+Type Compatibility
+	structural typing
+		types are equivalent if their fields are equivalent
+		The basic rule for TypeScript’s structural type system is that x is compatible with y if y has at least the same members as x
+		comparing functions is different
+			the more permissive can be assigned the less permissive
+			The type system enforces that the source function’s return type be a subtype of the target type’s return type
+	Function Parameter Bivariance
+JSX
+Mixins
+Triple-slash directives
