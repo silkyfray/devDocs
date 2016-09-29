@@ -1,0 +1,11 @@
+node
+------
+npm is the node package manager but it is very popular for many different frameworks. 
+npm install - searches package.json for dependencies and downloads them into the node_modules folder
+package.json is where we specify the package dependencies
+typings
+-------
+tsd is the command line tool for typings. It is now deprecated. Use typings instead
+typings is a command line tool for managing the typescript definition files.
+"typings install dt~react --global --save" will pull down the definitions d.ts for react and save them inside the typings/global/react folder
+it will also create an index.d.ts file which has the typings references used by the project.
