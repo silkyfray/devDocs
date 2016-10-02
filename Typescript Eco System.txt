@@ -1,11 +1,37 @@
-node
+important files to know
+------
+typings.json, package.json, tsconfig.json
+
+node (package.json)
 ------
 npm is the node package manager but it is very popular for many different frameworks. 
 npm install - searches package.json for dependencies and downloads them into the node_modules folder
 package.json is where we specify the package dependencies
-typings
+
+typings (typings.json)
 -------
 tsd is the command line tool for typings. It is now deprecated. Use typings instead
 typings is a command line tool for managing the typescript definition files.
 "typings install dt~react --global --save" will pull down the definitions d.ts for react and save them inside the typings/global/react folder
 it will also create an index.d.ts file which has the typings references used by the project.
+
+tsconfig.json
+------
+the presence of tsconfig in a folder indicates that it is the root of the typescript project.
+
+properties
+-----
+better known as props. The things coming from upstream. Readonly
+
+state
+-----
+mutable. The state and the view are always in sync.
+
+.d.ts
+-----
+a definition (interface) file.
+
+public vs export
+-----
+public - does nothing. (All class members are public by default). Legal only inside classes.
+export - at file/class/module level. <TODO>
